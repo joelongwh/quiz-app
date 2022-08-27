@@ -19,3 +19,6 @@ Quiz application to put your knowledge to the test! Choose a topic you wish to a
 
 ## UML Diagram
 ![image](https://user-images.githubusercontent.com/66825689/187021776-eea150e5-b6e1-4223-be6f-07fa1297746a.png)
+
+## Cloning repository
+run "npm -i" and then "ng serve"
