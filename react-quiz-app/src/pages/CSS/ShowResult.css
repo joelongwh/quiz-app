@@ -1,0 +1,44 @@
+.header{ 
+    font-family: Georgia, sans-serif;
+    font-size: 2em;
+    letter-spacing: -2px;
+}
+
+.score{
+    width: 3005empx;
+    font-size: 2em;
+    border: solid red 2px;
+}
+
+.button {
+    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    position: relative;
+    top: 50%;
+    left: 20%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 16px;
+  }
+
+  .button1 {
+    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    position: relative;
+    top: 50%;
+    left: 20%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 16px;
+  }
+ 

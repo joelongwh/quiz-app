@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.cardattemptquestions{
+	height: 740px;
+	background-color: lightblue;
+	padding: 2rem;
+	border-radius: 1rem;
+	position: absolute;
+    min-width: 960px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	border: 1px solid black;
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+
+}
+
+.score-section {
+    float: right;
+    font-size: 50px;
+}
+
+.question-count {
+    font-size: 50px;
+}
+
+.font-effect-3d-float{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(254, 254, 254);
+    text-align: center;
+    border-radius: 25px;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+}
+
+li {
+float: left;
+}
+
+.questions {
+    font-size: 25px;
+    margin: 3rem;
+}
+
+.submitbutton{
+    padding:8px 20px;
+    background-color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 20px;
+    width:100%;
+    margin:0.5rem;
+    position:relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.submitbutton:hover{
+    outline:1px ;
+    border: 3px solid lightcoral;
+    box-shadow: 0px 1px 0 #DEDEDE, 0px -1px 0 #DEDEDE;
+}

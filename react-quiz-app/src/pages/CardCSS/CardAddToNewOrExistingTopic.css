@@ -1,0 +1,82 @@
+.cardaddtoneworexistingtopic{
+    height: 740px;
+	width:550px;
+    text-align: center;
+	background-color: lightblue;
+	padding: 2rem;
+	border-radius: 1rem;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	border: 1px solid black;
+}
+
+.newtopicbutton, .existingtopicbutton{
+    background-color: black;
+    color:white;
+    font-size:1rem;
+    border-radius: 25px;
+    height:60px;
+    width:170px;
+    letter-spacing: 2px;
+    font-size:1rem;
+    font-weight:bold;
+    position: relative;
+    left:-30px;
+    margin-right: -50%;
+    transform: translate(-50%, 50%);
+}
+
+.newtopicbutton:hover, .existingtopicbutton:hover{
+    outline:1px ;
+    border: 3px solid #ffffff;
+    box-shadow: 0px 1px 0 #ffffff, 0px -1px 0 #ffffff;
+}
+
+.divider{
+    width:60%;
+    height:auto;
+    display:inline-block;
+}
+
+
+.listtopic{
+    font-size:25px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 100%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.welcome{
+    font-family: optima, sans-serif;
+    font-size:40px;
+    font-weight:900;
+    position: relative;
+    font-size:50px;
+    
+ 
+}
+
+.topics{
+    position: relative;
+    font-size:20px;
+    top: 100%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -250%);
+    background:rgb(255, 255, 255);
+    border-top:1px solid #ccc;
+    padding:10px 10px;
+    width:200px;
+    
+}
+
+.topics:hover{
+    background-color: rgb(180, 178, 178);
+    color: #ffffff;
+}

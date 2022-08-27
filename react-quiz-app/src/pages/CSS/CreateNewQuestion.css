@@ -1,0 +1,32 @@
+.header, 
+.primary_text{
+	text-align:center;
+}
+
+.header{
+	margin: 0rem 0 0.5rem 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+select {
+    appearance: none;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+  }
+
+.select {
+    text-align:center
+  }
+  

@@ -1,0 +1,13 @@
+.cardselecttopic{
+    height: 740px;
+    width:550px;
+    background-color: lightblue;
+    padding: 2rem;
+    border-radius: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
